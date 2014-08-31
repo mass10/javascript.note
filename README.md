@@ -1,1 +1,1 @@
-contains [wiki](../../wiki)
+Contains [Wiki](../../wiki).
