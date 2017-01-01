@@ -1,5 +1,8 @@
 #!/usr/bin/env node
 // coding: utf-8
+//
+// $ npm install uuid
+//
 
 function _main() {
 
