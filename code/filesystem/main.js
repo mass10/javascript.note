@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// conding: utf-8
+// coding: utf-8
 
 function _test_entry(path) {
 
