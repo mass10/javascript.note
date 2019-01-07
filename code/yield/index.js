@@ -3,13 +3,21 @@
 
 function* enum_values() {
 
-	yield [1, 2, 3, 4, 5, 6, 7, 8, 9];
+	yield 1;
+	yield 2;
+	yield 3;
+	yield 4;
+	yield 5;
+	yield 6;
+	yield 7;
+	yield 8;
+	yield 9;
 }
 
 function main() {
 
 	for (let e of enum_values()) {
-		console.log("[", e, "]");
+		console.log("[TRACE]", e);
 	}
 }
 
