@@ -1,6 +1,3 @@
-Contains [Wiki](../../wiki).
-
-<<<<<<< HEAD
 # Node.js 8x on Amazon Linux (2018-07-20)
 
 ```
@@ -34,10 +31,15 @@ info retry will retry, error on last attempt: Error: UNABLE_TO_GET_ISSUER_CERT_L
 
 ```
 npm config set strict-ssl=false
-=======
-# Getting started on Ubuntu 18 LTS
+```
+
+# Node.js on Ubuntu 18 LTS
+
+apt で入れたものは依然として古すぎるため、公式 GitHub リポジトリ内の説明に従う。(https://github.com/nodesource/distributions/)
+
+apt install で 10 や 11 が入るようになっている。
 
 ```
-sudo apt install npm
->>>>>>> 44c4b314a972fda8819ed55a5be2b966498e1396
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo apt-get install -y nodejs
 ```
