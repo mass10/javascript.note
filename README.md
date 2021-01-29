@@ -43,3 +43,7 @@ apt install で 10 や 11 が入るようになっている。
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
+
+# NPM Package を探すときに便利？かもしれないもの Openbase
+
+https://openbase.com
