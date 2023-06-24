@@ -33,7 +33,7 @@ info retry will retry, error on last attempt: Error: UNABLE_TO_GET_ISSUER_CERT_L
 npm config set strict-ssl=false
 ```
 
-# Node.js on Ubuntu 18 LTS
+# Node.js on Ubuntu 18 LTS (2019-04-07)
 
 apt で入れたものは依然として古すぎるため、公式 GitHub リポジトリ内の説明に従う。(https://github.com/nodesource/distributions/)
 
@@ -44,6 +44,18 @@ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
-# NPM Package を探すときに便利？かもしれないもの Openbase
+# NPM Package を探すときに便利？かもしれないもの Openbase (2021-01-29)
 
 https://openbase.com
+
+# Yarn on Ubuntu 20.04 (2023-06-24)
+
+```sh
+# そこそこ新しめの版 v16.20.1 が落ちてきた。
+sudo apt install nodejs
+
+# Yarn の公式より
+sudo npm i -g corepack
+
+/usr/bin/yarn --version
+```
