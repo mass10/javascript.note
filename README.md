@@ -50,9 +50,7 @@ https://openbase.com
 
 # Yarn on Ubuntu 20.04 (2023-06-24)
 
-```sh
-# そこそこ新しめの版 v16.20.1 が落ちてきた。
-sudo apt install nodejs
+https://github.com/nodesource/distributions#deb を参照。バージョンごとに用意されたスクリプトを curl | bash する。
 
 # Yarn の公式より
 sudo npm i -g corepack
